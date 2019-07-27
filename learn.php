@@ -62,6 +62,12 @@ return [
                 ],
             ],
             [
+                'name' => 'Control Structures',
+                'links' => [
+                    'PHP Manual' => 'https://www.php.net/manual/en/control-structures.intro.php',
+                ],
+            ],
+            [
                 'name' => 'Functions',
                 'links' => [
                     'Laracasts Video' => 'https://laracasts.com/series/php-for-beginners/episodes/10',
@@ -88,9 +94,60 @@ return [
         ],
     ],
     [
+        'name' => 'Intermediate PHP',
+        'children' => [
+            [
+                'name' => 'Working with Dates',
+                'links' => [
+                    'Unix Timestamps' => '',
+                    'DateTime' => '',
+                    'Carbon' => '',
+                ],
+            ],
+            //
+        ]
+    ],
+    [
+        'name' => 'Laravel Primer: Fundamental Concepts of PHP Application Development',
+        'children' => [
+            [
+                'name' => 'Cookies',
+                'links' => [
+                    'PHP Manual' => 'https://www.php.net/manual/en/features.cookies.php',
+                    'Laravel Docs' => '',
+                ]
+            ],
+            [
+                'name' => 'Sessions',
+                'links' => [
+                    'PHP Manual' => 'https://www.php.net/manual/en/intro.session.php',
+                    'Laravel Docs' => '',
+                ]
+            ],
+            [
+                // TODO: Refactor this
+                'name' => 'Requests & Form Processing',
+                'links' => [
+                    'Laravel Docs: Requests' => 'https://laravel.com/docs/5.8/requests',
+                    'GET vs POST' => 'https://www.tutorialspoint.com/php/php_get_post',
+                    'PHP Manual: POST method uploads' => 'https://www.php.net/manual/en/features.file-upload.post-method.php',
+                    'PHP Manual FAQ: PHP and HTML' => 'https://www.php.net/manual/en/faq.html.php',
+                    'AJAX (TODO: Replace)' => 'https://code.tutsplus.com/tutorials/how-to-use-ajax-in-php-and-jquery--cms-32494'
+                ]
+            ],
+            [
+                'name' => 'Safe Password Hashing',
+                'links' => [
+                    'PHP Manual FAQ' => 'https://php.net/manual/en/faq.passwords.php',
+                    'Laravel Docs' => 'https://laravel.com/docs/5.8/hashing',
+                ],
+            ],
+        ]
+    ],
+    [
         'name' => 'Creating and serving a new Laravel project',
         'links' => [
-            'Laravel docs' => 'https://laravel.com/docs/installation',
+            'Laravel Docs' => 'https://laravel.com/docs/installation',
             'Laracasts Video' => 'https://laracasts.com/series/laravel-from-scratch-2018/episodes/2',
         ],
     ],
@@ -111,8 +168,8 @@ return [
                 'name' => 'Blade Syntax &amp; Inheritance',
                 'links' => [
                     'Laravel Docs' => 'https://laravel.com/docs/blade',
-                    'Laracasts Video' => 'https://laracasts.com/series/laravel-from-scratch-2018/episodes/4',
-                    'Laracasts Video' => 'https://laracasts.com/series/laravel-from-scratch-2018/episodes/5',
+                    'Laracasts Video: Blade Layout Files' => 'https://laracasts.com/series/laravel-from-scratch-2018/episodes/4',
+                    'Laracasts Video: Sending Data to Your Views' => 'https://laracasts.com/series/laravel-from-scratch-2018/episodes/5',
                 ],
             ],
             [
@@ -154,8 +211,8 @@ return [
             [
                 'name' => 'Sending mail',
                 'links' => [
-                    'Laravel Docs' => 'https://laravel.com/docs/5.8/mail',
-                    'Laravel Docs' => 'https://laravel.com/docs/5.8/notifications',
+                    'Laravel Docs: Mail' => 'https://laravel.com/docs/5.8/mail',
+                    'Laravel Docs: Notifications' => 'https://laravel.com/docs/5.8/notifications',
                 ],
             ],
             [
@@ -164,6 +221,12 @@ return [
                     'Laravel Docs' => 'https://laravel.com/docs/5.8/container',
                 ],
             ],
+            [
+                'name' => 'Authentication',
+                'links' => [
+                    'Laravel Docs' => 'https://laravel.com/docs/5.8/authentication',
+                ]
+            ]
         ],
     ],
     [
